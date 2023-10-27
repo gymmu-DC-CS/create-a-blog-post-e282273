@@ -1,55 +1,91 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 5px;
+  box-sizing: content-box;
 }
 body{
-  min-height: 100vh;
-  background: linear-gradient(rgb(121, 120, 124),rgb(105, 105, 106)); 
+  height:95vh ;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: darkred;
 }
 header{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: lightgray;
+  padding: 2em 0 2em 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  font-weight: 200px;
+  font-style: initial;
+  text-decoration: underline;
+  color: rgb(70, 7, 7);
 }
-header .logo{
-  color: white;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+header{
+  background-size: cover;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.xn4IuOpWyHXch8oT4_8MLQHaEK%26pid%3DApi&f=1&ipt=1e6e4f60e6b3a3d2119f16309f4cc726828fb61d33892422587d3ead5642552c&ipo=images);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  flex-direction: column;
+  min-height: 100vh;
 }
-header ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.left{
+  background: lightgray;
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px;
+  font-size: small;
+  padding-left: 30px;
+  padding-left: 30px;
+  font-size: 70%;
+
 }
-header ul li{
-  list-style: none;
-  margin-left: 20px;
+
+#mundm{
+  width: 400px;
+  align-items: right;
 }
-header ul li a{
-  text-decoration: none;
-  padding: 6px 15px;
-  color: white;
-   border-radius: 20px;
+
+h1{
+  font-weight: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
 }
-header ul li a:hover,
-header ul li a.active
-{
-  background: rgb(73, 71, 71);
-  color: aliceblue;
+main{
+  background: lightgray;
+  padding: 3em 0 3em 0;
+  flex: 5 5 150px;
+  font-size: 70%;
+  padding-left: 30px;
+  padding-right: 30px;
 }
- #rap{
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+}
+
+footer{
+  background: lightgrey;
+  padding: 3em 0 3em 0;
+  flex: 5 5 150px;
+  font-size: 70%;
+  padding-left: 30px;
+  padding-right:  30px; 
+}
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  font-size: 24px;
+}
+#top{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  box-sizing: border-box;
   
-  
-  
-  
- }
+}
+
+h6{
+  font-size: xx-small;
+}
+
