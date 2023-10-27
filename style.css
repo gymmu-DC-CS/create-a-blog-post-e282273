@@ -1,11 +1,91 @@
-*,
-*::before,
-*::after {
+*{
+  margin: 5px;
   box-sizing: content-box;
 }
-
-body {
-  margin: 0;
-  background-color: lightgray;
+body{
+  height:95vh ;
   font-family: sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: darkred;
 }
+header{
+  background: lightgray;
+  padding: 2em 0 2em 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  font-weight: 200px;
+  font-style: initial;
+  text-decoration: underline;
+  color: rgb(70, 7, 7);
+}
+header{
+  background-size: cover;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.xn4IuOpWyHXch8oT4_8MLQHaEK%26pid%3DApi&f=1&ipt=1e6e4f60e6b3a3d2119f16309f4cc726828fb61d33892422587d3ead5642552c&ipo=images);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.left{
+  background: lightgray;
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px;
+  font-size: small;
+  padding-left: 30px;
+  padding-left: 30px;
+  font-size: 70%;
+
+}
+
+#mundm{
+  width: 400px;
+  align-items: right;
+}
+
+h1{
+  font-weight: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+}
+main{
+  background: lightgray;
+  padding: 3em 0 3em 0;
+  flex: 5 5 150px;
+  font-size: 70%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+}
+
+footer{
+  background: lightgrey;
+  padding: 3em 0 3em 0;
+  flex: 5 5 150px;
+  font-size: 70%;
+  padding-left: 30px;
+  padding-right:  30px; 
+}
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  font-size: 24px;
+}
+#top{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  box-sizing: border-box;
+  
+}
+
+h6{
+  font-size: xx-small;
+}
+
